@@ -1,0 +1,70 @@
+/** Header **/
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #f3a81e;
+  font: 1em;
+  margin-top: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #f3a81e;
+}
+
+#nav-list a {
+  text-align: center;
+}
+
+/* Main Content */
+h2 {
+  margin-bottom: 20px;
+}
+
+.dish h3 {
+ line-height: 1.5;
+}
+.dish {
+  background-color: rgba(240, 168, 35, 0.23);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 20px 5px;
+}
+
+/***** Large Devices only (Large Desktops) ******/
+@media (min-width: 1200px) {
+
+
+}
+
+/********** Medium devices only (Desktops and Tablets) **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/********** Small devices only (Tablets) **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/***** Extra Small Devices only (Mobile Phones) ******/
+@media (max-width: 767px) {
+  /* Header */
+  #collapsed-menu a { /* Collapsed nav menu text */
+    font-size: 1.3em;
+    color: #000;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* End Header */
+}
